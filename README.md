@@ -1,6 +1,6 @@
 # 🛒 Stavo E-Commerce UI
 
-A **e-commerce user interface** built with **React**.
+An **e-commerce user interface** built with **React**.
 This project focuses on delivering a clean, responsive, and scalable frontend design that can be integrated with any backend or API.
 
 ---
