@@ -29,4 +29,4 @@ Disallow: /backup/
 # Crawl-delay: 10
 
 # Sitemap location
-Sitemap: https://www.yourdomain.com/sitemap.xml
+# Sitemap: https://www.yourdomain.com/sitemap.xml
