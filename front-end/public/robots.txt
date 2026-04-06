@@ -1,3 +1,32 @@
-# https://www.robotstxt.org/robotstxt.html
+# robots.txt for your website
+# Allows you to control how search engines crawl your site
+
+# Block all robots from the entire site
+# User-agent: *
+# Disallow: /
+
+# Allow all robots to crawl everything
 User-agent: *
 Disallow:
+
+# Block specific bots (optional)
+# User-agent: BadBot
+# Disallow: /
+
+# Block specific directories
+User-agent: *
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /backup/
+
+# Allow specific files even in disallowed directories (optional)
+# User-agent: *
+# Allow: /public-file.html
+
+# Crawl-delay (for bots that respect it)
+# User-agent: *
+# Crawl-delay: 10
+
+# Sitemap location
+Sitemap: https://www.yourdomain.com/sitemap.xml
